@@ -3,7 +3,7 @@
 /**
  * Class VersionedReadingMode
  */
-class VersionedReadingMode
+class HeydayVersionedReadingMode
 {
     /**
      * @var String

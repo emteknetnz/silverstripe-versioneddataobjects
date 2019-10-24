@@ -137,9 +137,9 @@ class HeydayVersionedDataObject extends Versioned
         parent::onBeforeDelete();
 
         if (Versioned::current_stage() == 'Stage') {
-            VersionedReadingMode::setLiveReadingMode();
+            HeydayVersionedReadingMode::setLiveReadingMode();
             $this->owner->delete();
-            VersionedReadingMode::restoreOriginalReadingMode();
+            HeydayVersionedReadingMode::restoreOriginalReadingMode();
         }
     }
 
