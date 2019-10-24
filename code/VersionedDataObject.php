@@ -3,7 +3,7 @@
 /**
  * Class VersionedDataObject
  */
-class VersionedDataObject extends Versioned
+class HeydayVersionedDataObject extends Versioned
 {
     public function __construct()
     {
